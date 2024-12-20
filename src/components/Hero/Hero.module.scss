@@ -1,0 +1,45 @@
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.box{
+    max-width: 456px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    div{
+        display: flex;
+        align-items: center;
+        img{
+            cursor: pointer;
+        }
+    }
+
+    h1{
+        color: white;
+        font-size: 40px;
+        span{
+            background: linear-gradient(269deg, #C0B7E8 -3.72%, #8176AF 82.17%);
+            -webkit-background-clip: text; /* Для обрезки фона текстом */
+            -webkit-text-fill-color: transparent;
+
+        }
+    }
+
+
+    p{
+        color: white;
+        font-size: 16px;
+        line-height: 1.1;
+    }
+}
+
+
+.photo{
+    border-radius: 90px 90px 90px 200px;
+    border: 14px solid rgba(0, 0, 0, 0.1);
+
+}
