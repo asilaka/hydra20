@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section className={s.hero}>
         <div className="container">
-          <div className={s.wrap}>
+          <div div className={s.wrap}>
             <div className={s.box}>
 
               <h1 ><span>Dive</span>Into The Depths Of <span>Virtual Reality</span></h1>

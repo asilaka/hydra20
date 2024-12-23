@@ -2,11 +2,19 @@ import React from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
+import Contact from './components/Contact/Contact'
+import Hydra from './components/Hydra/Hydra'
+import About from './components/About/About'
 const App = () => {
   return (
    <>
    <Header/>
    <Hero/>
+   <Contact/>
+   <Hydra/>
+   <About/>
+   <Hydra/>
+
    </>
   )
 }

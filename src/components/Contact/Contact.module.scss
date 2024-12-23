@@ -1,0 +1,38 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Montserrat", serif;
+}
+
+.send{
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 130px;
+padding: 60px 70px;
+background: radial-gradient(50% 2900.76% at 50% 53.89%, #3a3456f2, #211e2e);
+border-radius: 200px;
+margin-top: 150px;
+
+.card{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+div{
+ 
+   h2{
+
+      color: #fff;
+       font-size: 17px;
+       font-weight: 700;
+
+   }
+
+   p{
+      color: #FFFFFF;
+      font-size: 14px;
+   }
+}
+}
