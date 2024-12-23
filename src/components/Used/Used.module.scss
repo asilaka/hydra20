@@ -1,0 +1,42 @@
+.box{
+    padding: 100px;
+    background-image: url('/Mask group (4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    color: white;
+position: relative;
+
+h3{
+    font-size: 36px;
+    font-weight: 400;
+
+    b{
+        font-weight: 600;
+    }
+}
+
+    button{
+        position: absolute;
+        bottom: -35px;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+        border-radius: 50%;
+        outline: 17px solid #0E0E0E52;
+        border: none;
+    }
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}

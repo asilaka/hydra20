@@ -1,0 +1,39 @@
+.wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    place-items: center;
+    margin: 100px 0;
+}
+
+.level{
+    background-image: url('/Vector 15.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.card{
+color: white;
+
+p{
+    font-size: 24px;
+    margin-top: 10px;
+}
+    h2{
+
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50%;
+        color: white;
+        background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+        outline: 10px solid #0000003b;
+
+font-size: 64px;
+color: #343045;
+    }
+   
+}

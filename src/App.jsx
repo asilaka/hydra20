@@ -5,6 +5,11 @@ import Hero from './components/Hero/Hero'
 import Contact from './components/Contact/Contact'
 import Hydra from './components/Hydra/Hydra'
 import About from './components/About/About'
+import Tarif from './components/Tarif/Tarif'
+import Used from './components/Used/Used'
+import Level from './components/Level/Level'
+
+
 const App = () => {
   return (
    <>
@@ -14,7 +19,10 @@ const App = () => {
    <Hydra/>
    <About/>
    <Hydra/>
-
+<Tarif/>
+<Used/>
+<Hydra/>
+<Level/>
    </>
   )
 }

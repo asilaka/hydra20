@@ -1,0 +1,24 @@
+.card{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 25px;
+padding-bottom: 40px;
+background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+border-radius: 40px;
+gap: 25px;
+
+color: white;
+
+h3{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C0B7E8;
+}
+
+img{
+    width: 90%;
+    border: 10px solid #0E0E0E52;
+    border-radius: 50%;
+}
+}
