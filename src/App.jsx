@@ -8,6 +8,7 @@ import About from './components/About/About'
 import Tarif from './components/Tarif/Tarif'
 import Used from './components/Used/Used'
 import Level from './components/Level/Level'
+import Manta from './components/Manta/Manta'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
    <Header/>
    <Hero/>
    <Contact/>
+   <Manta/>
    <Hydra/>
    <About/>
    <Hydra/>
