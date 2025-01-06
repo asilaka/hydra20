@@ -9,6 +9,8 @@ import Tarif from './components/Tarif/Tarif'
 import Used from './components/Used/Used'
 import Level from './components/Level/Level'
 import Manta from './components/Manta/Manta'
+import Join from './components/Join/Join'
+import Social from './components/Join/Social/Social'
 
 
 const App = () => {
@@ -25,6 +27,8 @@ const App = () => {
 <Used/>
 <Hydra/>
 <Level/>
+<Join/>
+<Social/>
    </>
   )
 }

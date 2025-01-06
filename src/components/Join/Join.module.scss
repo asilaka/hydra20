@@ -1,0 +1,156 @@
+.hydra{
+    h1{
+
+        display: flex;
+        text-align: center;
+        color: white;
+        font-size: 36px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+
+    }
+
+    p{
+        font-size: 36px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 300px;
+    }
+
+}
+
+$form-bg-color: #2d2d3b;
+$input-bg-color: #3b3b4f;
+$input-text-color: #fff;
+$button-bg-color: #5a5aad;
+$button-hover-bg-color: #4a4a9c;
+$input-height: 72px;
+$border-radius: 36px;
+$font-size: 16px;
+$padding: 20px;
+
+.formContainer {
+  background-color: $form-bg-color;
+  padding: $padding;
+  border-radius: $border-radius;
+  width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  input {
+    width: 48%;
+    height: $input-height;
+    border-radius: $border-radius;
+    border: none;
+    padding: 0 20px;
+    font-size: $font-size;
+    background-color: $input-bg-color;
+    color: $input-text-color;  // Устанавливаем цвет текста
+    outline: none;
+  }
+}
+
+input, textarea {
+  height: $input-height;
+  border-radius: $border-radius;
+  border: none;
+  padding: 0 20px;
+  font-size: $font-size;
+  margin-bottom: 20px;
+  background-color: $input-bg-color;
+  color: $input-text-color;  // Устанавливаем цвет текста
+  outline: none;
+}
+
+textarea {
+  padding: 20px;
+  resize: none;
+}
+
+button {
+  height: $input-height;
+  border-radius: $border-radius;
+  border: none;
+  font-size: $font-size;
+  background-color: $button-bg-color;
+  color: $input-text-color;  // Цвет текста кнопки
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+button:hover {
+  background-color: $button-hover-bg-color;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+ 
+  
+  input {
+    width: 48%;
+    height: $input-height;
+    border-radius: $border-radius;
+    border: 1px solid white;
+   
+    padding: 0 20px;
+    font-size: $font-size;
+    background-color: $input-bg-color;
+    color: #fff;
+    
+  }
+}
+
+input, textarea {
+  height: $input-height;
+  border-radius: $border-radius;
+  border: 1px solid white;
+  padding: 0 20px;
+  font-size: $font-size;
+  margin-bottom: 20px;
+  background-color: $input-bg-color;
+  color: #fff;
+}
+
+textarea {
+  padding: 20px;
+  resize: none;
+}
+
+button {
+  height: $input-height;
+  border-radius: $border-radius;
+  border: none;
+  font-size: $font-size;
+  background-color: $button-bg-color;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: $button-hover-bg-color;
+}

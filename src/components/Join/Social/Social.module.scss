@@ -1,0 +1,41 @@
+.hydra{
+    display: flex;
+    max-width: 1270px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+   
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 5px
+      
+    }
+    .cond{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+ .in{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+`
+
+ }
+
+ button{
+    padding: 20px 25px; 
+    text-align: center;
+    justify-content: center;
+    border-radius: 70px;
+ }
+}
